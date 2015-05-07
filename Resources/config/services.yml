@@ -1,0 +1,17 @@
+parameters:
+
+    tc.twig_extension.twig_global.class: Tc\Bundle\TwigGlobal\Twig\Extension\TwigGlobalExtension
+    tc.twig_global.class: Tc\Bundle\TwigGlobal\TwigGlobal\TwigGlobalContainer
+
+services:
+
+    tc.twig_global:
+        class: %tc.twig_global.class%
+
+    tc.twig_extension.twig_global:
+        class: %tc.twig_extension.twig_global.class%
+        public: false
+        arguments:
+            - @tc.twig_global
+        tags:
+            - { name: twig.extension }

@@ -1,0 +1,24 @@
+{
+  "name": "tc/twig-global-bundle",
+  "type": "symfony-bundle",
+  "description": "TcTwigGlobalBundle",
+  "keywords": ["Twig"],
+  "homepage": "https://github.com/ThreeceeStudios/TcTwigGlobalBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Carl Craig",
+      "email": "carlcraig@3c-studios.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": "~2.3",
+    "symfony/twig-bundle": "~2.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": { "Tc\\Bundle\\TwigGlobal\\": "" }
+  }
+}
