@@ -69,7 +69,7 @@ class TwigGlobalNode extends Twig_Node
                 ).'\', '
             )
             ->subcompile($this->getNode('value'))
-            ->write(', '.($this->getAttribute('default') == true ? 'true' : 'false'))
+            ->write(', '.($this->getAttribute('default') === true ? 'true' : 'false'))
             ->raw(");\n");
     }
 
@@ -83,8 +83,8 @@ class TwigGlobalNode extends Twig_Node
                 ).'\', '
             )
             ->subcompile($this->getNode('value'))
-            ->write(', '.($this->getAttribute('default') == true ? 'true' : 'false'))
-            ->write(', '.($this->getAttribute('unique') == true ? 'true' : 'false'))
+            ->write(', '.($this->getAttribute('default') === true ? 'true' : 'false'))
+            ->write(', '.($this->getAttribute('unique') === true ? 'true' : 'false'))
             ->raw(");\n");
     }
 }

@@ -2,7 +2,7 @@
   "name": "tc/twig-global-bundle",
   "type": "symfony-bundle",
   "description": "TcTwigGlobalBundle",
-  "keywords": ["twig", "tc/twig-global-bundle", "twig global", "tc"],
+  "keywords": ["twig", "twig-global-bundle", "twig global", "tc"],
   "homepage": "https://github.com/ThreeceeStudios/TcTwigGlobalBundle",
   "license": "MIT",
   "authors": [
