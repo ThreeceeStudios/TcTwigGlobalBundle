@@ -3,6 +3,8 @@ Tc Twig Global Bundle
 
 [![Latest Stable Version](https://poser.pugx.org/tc/twig-global-bundle/v/stable)](https://packagist.org/packages/tc/twig-global-bundle)
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a1664a0d-7f13-49ae-8085-ef83f3e4baf8/big.png)](https://insight.sensiolabs.com/projects/a1664a0d-7f13-49ae-8085-ef83f3e4baf8)
+
 Provides some useful twig tags for global variables.
 
 
