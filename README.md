@@ -15,6 +15,8 @@ composer require tc/twig-global-bundle
 Usage
 ------
 
+Usage in Twig:
+
 ```twig
 
 {# set a global #}
@@ -41,6 +43,15 @@ Usage
 {{ _tc_global.set('title', 'value', true /* default */) }}
 {{ _tc_global.merge('colors', 'purple', false /* default */, false /* unique */) }}
 
+```
+
+Usage in PHP via the `tc.twig_global` service:
+
+```php
+$container->get('tc.twig_global')->set('title', 'something');
+$container->get('tc.twig_global')->get('title');
+$container->get('tc.twig_global')->merge('colors', 'blue');
+// etc
 ```
 
 
