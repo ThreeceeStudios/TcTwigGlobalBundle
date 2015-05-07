@@ -1,6 +1,8 @@
 Tc Twig Global Bundle
 =====================
 
+[![Latest Stable Version](https://poser.pugx.org/tc/twig-global-bundle/v/stable)](https://packagist.org/packages/tc/twig-global-bundle)
+
 Provides some useful twig tags for global variables.
 
 
@@ -9,6 +11,18 @@ Installation
 
 ```
 composer require tc/twig-global-bundle
+```
+
+Enable the bundle in your `AppKernel.php`
+
+```php
+$bundles = array(
+    // ...
+    
+    new Tc\Bundle\TwigGlobal\TcTwigGlobalBundle(),
+    
+    // ...
+);
 ```
 
 
